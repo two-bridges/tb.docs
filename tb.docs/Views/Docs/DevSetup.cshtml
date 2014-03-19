@@ -1,0 +1,30 @@
+﻿@{
+    // this page is pure ASP.Net MVC Razor.  
+    // don't even think about adding angular here, go test that somewhere else.  
+    ViewBag.Title = "DevSetup";
+}
+
+<h2>Development Machine Setup</h2>
+<ul class="nav nav-pills">
+    @foreach (var page in ViewBag.pages)
+    {
+        var oPage = page.Value;
+        if (oPage.Name == ViewBag.current_page)
+        {
+
+        }
+        <li class="@if (oPage.isActive)
+                   {
+                       @Html.Raw("active")
+        }"><a href="?page=@oPage.Name">@oPage.Label</a></li>
+    }
+</ul>
+
+
+
+@if ((ViewBag.pages("git").Value).isActive == true)
+{
+    @ViewBag.Title
+    Html.RenderPartial("~/Views/Docs/_GithubSetup.cshtml");
+}
+

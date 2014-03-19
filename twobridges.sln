@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twobridges", "twobridges\twobridges.csproj", "{B683D790-2F43-4BA3-8751-DD0E3F928B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tb.docs", "tb.docs\tb.docs.csproj", "{6D20F7E5-5866-4136-BE3C-010ED1ED4FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B683D790-2F43-4BA3-8751-DD0E3F928B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B683D790-2F43-4BA3-8751-DD0E3F928B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B683D790-2F43-4BA3-8751-DD0E3F928B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B683D790-2F43-4BA3-8751-DD0E3F928B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D20F7E5-5866-4136-BE3C-010ED1ED4FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D20F7E5-5866-4136-BE3C-010ED1ED4FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D20F7E5-5866-4136-BE3C-010ED1ED4FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D20F7E5-5866-4136-BE3C-010ED1ED4FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
